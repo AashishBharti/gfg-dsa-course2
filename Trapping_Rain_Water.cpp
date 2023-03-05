@@ -26,7 +26,7 @@ int TrappingRain(int arr[],int n)
 
 int main()
 {
-    int arr[]={3,0,1,2,5};
-    int n=5;
+    int arr[]={3,0,3,2};
+    int n=4;
     cout<<TrappingRain(arr,n);
 }
