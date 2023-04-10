@@ -1,14 +1,16 @@
 import java.util.Scanner;
+import java.util.*;
+import java.io.*;
 
 public class PalindromeCheck {
     public static boolean isPalindrome(String str) {
-        int left = 0, right = str.length() - 1;
-        while (left < right) {
-            if (str.charAt(left) != str.charAt(right)) {
+        int s = 0, e = str.length() - 2;
+        while (s <e) {
+            if (str.charAt(s) != str.charAt(e)) {
                 return false;
             }
-            left++;
-            right--;
+            s++;
+            e--;
         }
         return true;
     }
