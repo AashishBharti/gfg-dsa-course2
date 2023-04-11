@@ -22,5 +22,4 @@ int main()
     string str;
     cin>>str;
     cout<<leftmost(str);
-
 }
