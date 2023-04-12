@@ -6,6 +6,7 @@ const int CHAR=256;
 int leftmost(string str)
 {
     int count[CHAR]={0};
+    //increment count
    for(int i=0;i<str.length();i++)
    {
         count[str[i]]++;
