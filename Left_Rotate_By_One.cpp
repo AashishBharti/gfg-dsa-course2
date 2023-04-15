@@ -16,7 +16,7 @@ void lrotate(int arr[],int n)
 int main()
 {
 
-    int arr[]={1,2,3,4,5};
+    int arr[]={1,2,3,4,5};// array
 
     int n=sizeof(arr)/sizeof(arr[0]);
 
