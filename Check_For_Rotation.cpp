@@ -2,7 +2,7 @@
 
 using namespace std;
 
-bool arerotation(string s1,string s2)
+bool arerotation(string s1,string s2)// function call
 {
     if(s1.length()!=s2.length())
     {

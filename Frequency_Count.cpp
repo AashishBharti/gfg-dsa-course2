@@ -5,7 +5,7 @@ using namespace std;
 void frequencyCount(int arr[],int n)
 {
     int freq=1,i=1;
-    while(i<n)
+    while(i<n)// while loop
     {
         while(i<n && arr[i] ==arr[i-1])
         {
