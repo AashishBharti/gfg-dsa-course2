@@ -6,7 +6,7 @@ struct DAT{
 
     int table[1000]={0};
 
-    void insert(int i)
+    void insert(int i)//for inserting in hashtable
     {
         table[i]=1;
     }
