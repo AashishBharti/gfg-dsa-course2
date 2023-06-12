@@ -8,9 +8,9 @@ int maxProfit(int price[],int start,int end )
     {
         return 0;
     }
-    for(int i=start;i<end;i++)
+    for(int i=start;i<end;i++)//for loop
     {
-        for(int j=i+1;j<=end;j++)
+        for(int j=i+1;j<=end;j++)//for loop
         {
             if(price[j]>price[i])
             {

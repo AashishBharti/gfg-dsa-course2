@@ -5,10 +5,10 @@ using namespace std;
 int consecutingOne(int arr[],int n)
 {
     int res=0;
-    for(int i=0;i<n;i++)
+    for(int i=0;i<n;i++)//for loop outer loop
     {
         int curr=0;
-        for(int j=i;j<n;j++)
+        for(int j=i;j<n;j++)//inner loop
         {
             if(arr[j]==1)
             {
