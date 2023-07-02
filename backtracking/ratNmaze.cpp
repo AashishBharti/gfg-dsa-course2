@@ -29,7 +29,7 @@ bool solveMaze(int maze[N][N])
                       { 0, 0, 0, 0 } }; 
   
     if (solveMazeRec(maze, 0, 0, sol) == false) { 
-        printf("Solution doesn't exist"); 
+        printf("Solution doesn't exist"); ṇ
         return false; 
     } 
   
